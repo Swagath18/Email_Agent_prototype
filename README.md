@@ -24,14 +24,18 @@ It combines **LangChain**, **FAISS**, and **OpenAI GPT models** to create a retr
 ---
 email_digital_twin_prototype/
 │
-├── main.py # Main pipeline to extract, retrieve, and generate replies
-├── persona.json # Defines tone, phrases, and signature for personalized emails
-├── data/
-│ └── myfile.pdf # Example input PDF
-├── vectorstore/ # FAISS embeddings store (auto-created)
-├── response_log.json # Auto-generated log of all email responses
-├── .env # Stores OPENAI_API_KEY
-└── README.md # This file
+├── main.py                   # Main pipeline to extract, retrieve, and generate replies
+├── persona.json              # Defines tone, phrases, and signature for personalized emails
+│
+├── data/                     # Folder for storing input files
+│   └── myfile.pdf            # Example PDF attachment used in email context
+│
+├── vectorstore/              # FAISS embeddings store (auto-created on runtime)
+│
+├── response_log.json         # Auto-generated log of all email responses
+├── .env                      # Stores environment variables (e.g., OPENAI_API_KEY)
+├── requirements.txt          # List of required Python dependencies
+└── README.md                 # Project documentation
 
 ---
 Just a prototype for bigger project
