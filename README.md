@@ -21,7 +21,7 @@ It combines **LangChain**, **FAISS**, and **OpenAI GPT models** to create a retr
 
 ## 🧩 Project Structure
 
----
+```bash
 email_digital_twin_prototype/
 │
 ├── main.py                   # Main pipeline to extract, retrieve, and generate replies
@@ -36,6 +36,6 @@ email_digital_twin_prototype/
 ├── .env                      # Stores environment variables (e.g., OPENAI_API_KEY)
 ├── requirements.txt          # List of required Python dependencies
 └── README.md                 # Project documentation
+```
 
----
 Just a prototype for bigger project
