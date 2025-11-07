@@ -1,1 +1,1 @@
-project
+EMAIL Agent - RAG prototype
